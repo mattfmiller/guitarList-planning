@@ -31,7 +31,8 @@ Stretch goals:<br>
 
 ## Relevant Repositories
 
-* Custom Java API: https://github.com/mattfmiller/equiplist
+* Custom Java API (multiple branches): https://github.com/mattfmiller/equiplist
+
 
 
 #### User Story
