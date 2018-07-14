@@ -29,6 +29,11 @@ Stretch goals:<br>
    * Search inventory by query<br>
    * Create multiple accounts<br>
 
+## Relevant Repositories
+
+* Custom Java API: https://github.com/mattfmiller/equiplist
+
+
 #### User Story
 
 A. As a user, I want to see all instruments in the collection <br>
@@ -50,6 +55,8 @@ P. As a user, I want to edit instrument details when they change<br>
 Q. As a user, I want to delete instruments when they are no longer in my collection or wantlist.
 R. As a user, I want to delete notes that are no longer relevant<br>
 S. As a user, I want to delete a guitar type association in case of error<br>
+
+
 
 ## Known Bugs
 
