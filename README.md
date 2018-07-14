@@ -56,7 +56,13 @@ Q. As a user, I want to delete instruments when they are no longer in my collect
 R. As a user, I want to delete notes that are no longer relevant<br>
 S. As a user, I want to delete a guitar type association in case of error<br>
 
+## Design
 
+Landing Page:
+![alt tag](images/guitarList-landing-page.jpg "Landing Page")
+
+Instrument Details:
+![alt tag](images/guitarList-instrument-details.jpg "Landing Page")
 
 ## Known Bugs
 
