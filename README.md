@@ -40,25 +40,25 @@ https://github.com/mattfmiller/guitarList
 
 #### User Story
 
-A. As a user, I want to see recent instruments in the collection <br>
-B. As a user, I want to see all guitars in the collection <br>
-C. As a user, I want to see all amps in the collection <br>
-D. As a user, I want to see all pedals in the collection <br>
-E. As a user, I want to see specific information about a single guitar<br>
-F. As a user, I want to see specific information about a single amp<br>
-G. As a user, I want to see specific information about a single pedal<br>
-H. As a user, I want to be able to add a guitar to the database<br>
-I. As a user, I want to be able to add an amp to the database<br>
-J. As a user, I want to be able to add a pedal to the database<br>
-K. As a user, I want to see which guitar type(s) a single guitar is associated with<br>
-L. As a user, I want to be able to add a guitar type to a guitar<br>
-M. As a user, I want to see all guitars of a specific guitar type<br>
-N. As a user, I want to be able to add a note on an instrument<br>
-O. As a user, I want to see all notes for an instrument<br>
-P. As a user, I want to edit instrument details when they change<br>
-Q. As a user, I want to delete instruments when they are no longer in my collection or wantlist.
-R. As a user, I want to delete notes that are no longer relevant<br>
-S. As a user, I want to delete a guitar type association in case of error<br>
+A. As a user, I want to see recent instruments in the collection (get guitars in collection, get amps in collection, get pedals in collection)<br>
+B. As a user, I want to see all guitars in the collection (get guitars in collection)<br>
+C. As a user, I want to see all amps in the collection (get amps in collection) <br>
+D. As a user, I want to see all pedals in the collection (get pedals in collection) <br>
+E. As a user, I want to see specific information about a single guitar (get guitar in collection or wishlist)<br>
+F. As a user, I want to see specific information about a single amp (get amp in collection or wishlist)<br>
+G. As a user, I want to see specific information about a single pedal (get pedal in collection or wishlist)<br>
+H. As a user, I want to be able to add a guitar to the database (post guitar)<br>
+I. As a user, I want to be able to add an amp to the database (post amp)<br>
+J. As a user, I want to be able to add a pedal to the database (post pedal)<br>
+K. As a user, I want to see which guitar type(s) a single guitar is associated with (get guitarTypes by guitar id)<br>
+L. As a user, I want to be able to add a guitar type to a guitar (post guitarType by guitar id)<br>
+M. As a user, I want to see all guitars of a specific guitar type (get guitars by guitarType id)<br>
+N. As a user, I want to be able to add a note on an instrument (post note by instrument id)<br>
+O. As a user, I want to see all notes for an instrument (get notes by instrument id)<br>
+P. As a user, I want to edit instrument details when they change (Post update guitar, post update amp, post, update pedal)<br>
+Q. As a user, I want to delete instruments when they are no longer in my collection or wantlist (post delete guitar, post delete amp, post delete pedal).
+R. As a user, I want to delete notes that are no longer relevant (post delete note)<br>
+S. As a user, I want to delete a guitar type association in case of error (post delete guitarType)<br>
 
 ## Design
 
@@ -70,6 +70,21 @@ Landing Page:
 
 Instrument Details:
 ![alt tag](images/guitarList-instrument-details.jpg "Landing Page")
+
+Sate Structure:
+```
+{
+  guitarsInCollection: [],
+  ampsInCollection: [],
+  pedalsInCollection: [],
+  guitarsInWishlist: [],
+  ampsInWishlist: [],
+  pedalsInWishlist: [],
+  selectedInstrumentId: null,
+  selectedInstrumentNotes:[],
+  selectedGuitarTypes: []
+}
+```
 
 ## Known Bugs
 
