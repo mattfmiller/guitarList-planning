@@ -19,12 +19,13 @@
 
 <strong>Tools, frameworks, libraries, APIs, modules and/or other resources used to create this MVP:<strong><br>
 
-   * Custom Java API<br>
+   * Custom Java RESTful API<br>
    * React<br>
    * React Redux<br>
 
 Stretch goals:<br>
-
+   * Add notes to instrument<br>
+   * Add guitar type to guitars<br>
    * Filter inventory by type<br>
    * Search inventory by query<br>
    * Create multiple accounts<br>
