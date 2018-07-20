@@ -64,7 +64,7 @@ S. As a user, I want to delete a guitar type association in case of error (post 
 ## Design
 
 Component Tree:
-![alt tag](images/component-tree.jpg "Component Tree")
+![alt tag](images/component-tree.JPG "Component Tree")
 
 Landing Page:
 ![alt tag](images/guitarList-landing-page.jpg "Landing Page")
