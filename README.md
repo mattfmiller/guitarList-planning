@@ -31,13 +31,16 @@ Stretch goals:<br>
 
 ## Relevant Repositories
 
+* React Frontend:
+https://github.com/mattfmiller/guitarList
+
 * Custom Java API (multiple branches): https://github.com/mattfmiller/equiplist
 
 
 
 #### User Story
 
-A. As a user, I want to see all instruments in the collection <br>
+A. As a user, I want to see recent instruments in the collection <br>
 B. As a user, I want to see all guitars in the collection <br>
 C. As a user, I want to see all amps in the collection <br>
 D. As a user, I want to see all pedals in the collection <br>
@@ -58,6 +61,9 @@ R. As a user, I want to delete notes that are no longer relevant<br>
 S. As a user, I want to delete a guitar type association in case of error<br>
 
 ## Design
+
+Component Tree:
+![alt tag](images/component-tree.jpg "Component Tree")
 
 Landing Page:
 ![alt tag](images/guitarList-landing-page.jpg "Landing Page")
