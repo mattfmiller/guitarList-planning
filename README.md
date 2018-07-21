@@ -30,15 +30,6 @@ Stretch goals:<br>
    * Search inventory by query<br>
    * Create multiple accounts<br>
 
-## Relevant Repositories
-
-* React Frontend:
-https://github.com/mattfmiller/guitarList
-
-* Custom Java API (multiple branches): https://github.com/mattfmiller/equiplist
-
-
-
 #### User Story
 
 A. As a user, I want to see recent instruments in the collection (get guitars in collection, get amps in collection, get pedals in collection)<br>
@@ -86,6 +77,13 @@ Sate Structure:
   selectedGuitarTypes: []
 }
 ```
+
+## Relevant Repositories
+
+* React Frontend:
+https://github.com/mattfmiller/guitarList
+
+* Custom Java API (multiple branches): https://github.com/mattfmiller/equiplist
 
 ## Known Bugs
 
